@@ -1,0 +1,16 @@
+PODS:
+  - CJVideoPlayer (0.1.0)
+
+DEPENDENCIES:
+  - CJVideoPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  CJVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJVideoPlayer: d0138362ac162b2dadfefc2a01953088b6404d2e
+
+PODFILE CHECKSUM: 8000fee9d5f3b7462ae778082eeb293fca458877
+
+COCOAPODS: 1.10.2
