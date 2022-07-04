@@ -1,6 +1,0 @@
-framework module Pods_CJVideoPlayerDemo_Tests {
-  umbrella header "Pods-CJVideoPlayerDemo_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

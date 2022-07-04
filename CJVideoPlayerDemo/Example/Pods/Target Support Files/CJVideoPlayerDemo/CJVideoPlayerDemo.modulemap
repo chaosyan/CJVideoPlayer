@@ -1,6 +1,0 @@
-framework module CJVideoPlayerDemo {
-  umbrella header "CJVideoPlayerDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
