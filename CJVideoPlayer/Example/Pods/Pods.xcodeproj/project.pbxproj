@@ -10,6 +10,12 @@
 		01148950991D24FCB8A09B9B02D6815C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EF314BA9B0AE93BC509CC0F659647D /* ReplaceMe.m */; };
 		0F6E797FBDDB7D12B9C129D1B0949228 /* Pods-CJVideoPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54822320F70197C35AB360E600620F2B /* Pods-CJVideoPlayer_Tests-dummy.m */; };
 		17CBF81FBA25F97066F2B9D003B15F69 /* CJVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C804D71F0B71FF5E62A2998199221214 /* CJVideoPlayer-dummy.m */; };
+		1E88A6C22872853E0071F97F /* CJVFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E88A6C02872853E0071F97F /* CJVFileManager.h */; };
+		1E88A6C32872853E0071F97F /* CJVFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88A6C12872853E0071F97F /* CJVFileManager.m */; };
+		1E88A6CC287285550071F97F /* CJDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E88A6CA287285550071F97F /* CJDownloader.h */; };
+		1E88A6CD287285550071F97F /* CJDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88A6CB287285550071F97F /* CJDownloader.m */; };
+		1E88A6DD287286A50071F97F /* CJViewPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E88A6DB287286A50071F97F /* CJViewPlayer.h */; };
+		1E88A6DE287286A50071F97F /* CJViewPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88A6DC287286A50071F97F /* CJViewPlayer.m */; };
 		4957E04CDDE44C47E91A03D74072F3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6D516A2AA2ACCD07C4948A61649CFED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9BECE26947C3E783520DD04CF64BF200 /* Pods-CJVideoPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C840A0A66F1E2EB5C96C330971DCB9 /* Pods-CJVideoPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,16 +44,23 @@
 
 /* Begin PBXFileReference section */
 		183313124239EBE5A7A50AC018094E40 /* Pods-CJVideoPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJVideoPlayer_Example-Info.plist"; sourceTree = "<group>"; };
-		1A1F9ADAE9EC10C003640CB6FDC13573 /* CJVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJVideoPlayer.framework; path = CJVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22B9A3FD1EC4A8730F490B8644C89418 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1A1F9ADAE9EC10C003640CB6FDC13573 /* CJVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E88A6B8287284C80071F97F /* CJVideoPlayerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJVideoPlayerKit.h; sourceTree = "<group>"; };
+		1E88A6C02872853E0071F97F /* CJVFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CJVFileManager.h; path = CJVideoPlayer/Classes/CJVFileManager.h; sourceTree = "<group>"; };
+		1E88A6C12872853E0071F97F /* CJVFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CJVFileManager.m; path = CJVideoPlayer/Classes/CJVFileManager.m; sourceTree = "<group>"; };
+		1E88A6CA287285550071F97F /* CJDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CJDownloader.h; path = CJVideoPlayer/Classes/CJDownloader.h; sourceTree = "<group>"; };
+		1E88A6CB287285550071F97F /* CJDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CJDownloader.m; path = CJVideoPlayer/Classes/CJDownloader.m; sourceTree = "<group>"; };
+		1E88A6DB287286A50071F97F /* CJViewPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CJViewPlayer.h; path = CJVideoPlayer/Classes/CJViewPlayer.h; sourceTree = "<group>"; };
+		1E88A6DC287286A50071F97F /* CJViewPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CJViewPlayer.m; path = CJVideoPlayer/Classes/CJViewPlayer.m; sourceTree = "<group>"; };
+		22B9A3FD1EC4A8730F490B8644C89418 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		250ECA550F1D76F606A238EFBE7FCB1F /* Pods-CJVideoPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJVideoPlayer_Tests.modulemap"; sourceTree = "<group>"; };
 		25F6868106F1D72A1225BABB8EE874FB /* Pods-CJVideoPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJVideoPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		283DEAC573FE700EA11D0D928A7B924F /* Pods-CJVideoPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJVideoPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
-		295B7B7B2633153F72B13D8D5C222F65 /* CJVideoPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CJVideoPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		295B7B7B2633153F72B13D8D5C222F65 /* CJVideoPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CJVideoPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		30C840A0A66F1E2EB5C96C330971DCB9 /* Pods-CJVideoPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJVideoPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		33F0FA124CE93DFDE48D0911AA7BD365 /* Pods-CJVideoPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJVideoPlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		36EF314BA9B0AE93BC509CC0F659647D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CJVideoPlayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		4E28E3D29DDC1F4CD3C9063ADE9A62A9 /* Pods_CJVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJVideoPlayer_Example.framework; path = "Pods-CJVideoPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E28E3D29DDC1F4CD3C9063ADE9A62A9 /* Pods_CJVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F28296C05A1D57051576F36B676DC79 /* CJVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJVideoPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		54822320F70197C35AB360E600620F2B /* Pods-CJVideoPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJVideoPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		54E8D0191ED0A413AA3C81DEE4BE6986 /* CJVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJVideoPlayer.modulemap; sourceTree = "<group>"; };
@@ -55,10 +68,10 @@
 		6CB6DCEA4F9B5F563E9C3C467CB55D83 /* CJVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJVideoPlayer.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76D9035EA4F24BA81F54DDA2EDBE9637 /* Pods-CJVideoPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJVideoPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		859A9A2569F30440A8D1B678D5C1F5FC /* Pods_CJVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJVideoPlayer_Tests.framework; path = "Pods-CJVideoPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88D2C45DE01619BC42A95DEFD899442E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		859A9A2569F30440A8D1B678D5C1F5FC /* Pods_CJVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D2C45DE01619BC42A95DEFD899442E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9908EC036ECB5426B2C8EF336EEA8A46 /* CJVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A336E8E72C805FF41B96FE0677BF76CE /* Pods-CJVideoPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJVideoPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC9A091F53D2854B67CE37548E0B0092 /* CJVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
 		B1C54AB47B2E54625CC4F50A23101AC6 /* Pods-CJVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +119,13 @@
 				36EF314BA9B0AE93BC509CC0F659647D /* ReplaceMe.m */,
 				8507453776B53F24FE8B0091BC2CB30B /* Pod */,
 				5DC43BC3776A31590A6953506377C298 /* Support Files */,
+				1E88A6B8287284C80071F97F /* CJVideoPlayerKit.h */,
+				1E88A6C02872853E0071F97F /* CJVFileManager.h */,
+				1E88A6C12872853E0071F97F /* CJVFileManager.m */,
+				1E88A6CA287285550071F97F /* CJDownloader.h */,
+				1E88A6CB287285550071F97F /* CJDownloader.m */,
+				1E88A6DB287286A50071F97F /* CJViewPlayer.h */,
+				1E88A6DC287286A50071F97F /* CJViewPlayer.m */,
 			);
 			name = CJVideoPlayer;
 			path = ../..;
@@ -230,6 +250,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E88A6CC287285550071F97F /* CJDownloader.h in Headers */,
+				1E88A6DD287286A50071F97F /* CJViewPlayer.h in Headers */,
+				1E88A6C22872853E0071F97F /* CJVFileManager.h in Headers */,
 				E810589C1226822DB8BD2B0541AC18DC /* CJVideoPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +390,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E88A6DE287286A50071F97F /* CJViewPlayer.m in Sources */,
 				17CBF81FBA25F97066F2B9D003B15F69 /* CJVideoPlayer-dummy.m in Sources */,
+				1E88A6CD287285550071F97F /* CJDownloader.m in Sources */,
+				1E88A6C32872853E0071F97F /* CJVFileManager.m in Sources */,
 				01148950991D24FCB8A09B9B02D6815C /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,8 +617,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
